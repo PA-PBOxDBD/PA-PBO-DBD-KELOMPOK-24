@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 31 Okt 2023 pada 17.35
+-- Waktu pembuatan: 07 Nov 2023 pada 15.45
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `testdbd`
+-- Database: `haykal`
 --
 
 -- --------------------------------------------------------
@@ -58,14 +58,6 @@ CREATE TABLE `nilai` (
   `staff_tu_id_user` char(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data untuk tabel `nilai`
---
-
-INSERT INTO `nilai` (`id_nilai`, `nilai`, `predikat`, `mata_pelajaran_kode_mapel`, `siswa_id_user`, `staff_tu_id_user`) VALUES
-(47, 75, 'B', 'A3', '155012', '100'),
-(48, 90, 'A', 'A4', '155012', '100');
-
 -- --------------------------------------------------------
 
 --
@@ -83,8 +75,10 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`id_user`, `kelas`, `jenis_kelamin`) VALUES
-('120', 'XI MIPA 4', 'Laki - laki'),
-('155012', '12 MIPA 3', 'Laki Laki');
+('2209116003', 'XII AP 1', 'Perempuan'),
+('2209116006', 'XII TKJ 1', 'Laki-Laki'),
+('2209116018', 'XII TKJ 2', 'Laki-Laki'),
+('2209116042', 'XII TKJ 2', 'Laki-Laki');
 
 -- --------------------------------------------------------
 
@@ -103,7 +97,7 @@ CREATE TABLE `staff_tu` (
 --
 
 INSERT INTO `staff_tu` (`id_user`, `no_telp`, `email`) VALUES
-('100', '0808', 'haykal@gmail.com');
+('2209116033', '083312445617', 'doniarya@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -123,9 +117,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama`, `password`, `role`) VALUES
-('100', 'Haykal Fajjar', '123', 'Staff'),
-('120', 'Abdul Rahman', '123', 'Siswa'),
-('155012', 'Muhammad Fauzan Gifari', '123', 'Siswa');
+('2209116003', 'Sandrina Aulia', '123', 'Siswa'),
+('2209116006', 'Dinnuhoni Trahutomo', '123', 'Siswa'),
+('2209116018', 'M. Haykal Fajjar Aulia', '123', 'Siswa'),
+('2209116033', 'Doni Arya Rachmadi', '123', 'Staff'),
+('2209116042', 'Muhammad Fauzan Ghifari', '123', 'Siswa');
 
 --
 -- Indexes for dumped tables
