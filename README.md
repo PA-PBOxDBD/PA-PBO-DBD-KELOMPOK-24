@@ -45,10 +45,12 @@ Flowchart dimulai dari user diminta untuk memilih menu login , terdapat 3 menu p
 
 ## Entity Relationship Diagram
 ### Logical ERD
-![WhatsApp Image 2023-11-04 at 03 58 35_ba66d23c](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121856034/68caeb99-1dc4-407f-a4d5-9a79fe970caa)
+![image](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121924124/e9cb75a2-b0e3-43b3-84b6-1db92b2434f9)
+
 
 ### Relatioanal ERD
-![WhatsApp Image 2023-11-04 at 03 58 48_aef4012d](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121856034/b2d17142-3fae-4de3-b4a7-82fdace745fe)
+![image](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121924124/ba797f0c-bd2e-4589-95d1-af965741a7a8)
+
 
 
 ## Hirarki kelas
