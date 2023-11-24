@@ -41,6 +41,7 @@ Aplikasi ini bertujuan mempermudah staf akademik/TU dalam mengelola data siswa d
 ## Flowchart
 ![WhatsApp Image 2023-11-04 at 03 58 00_c127c466](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121856034/03283f93-0f26-4a6c-9ae5-18dcdde4f337)
 
+
 Flowchart dimulai dari user diminta untuk memilih menu login , terdapat 3 menu pilihan yaitu staff TU, siswa dan exit. Ketika user memilih menu staff TU maka user diminta untuk menginputkan nip dan password kemudian jika user salah menginputkan maka user diminta untuk menginput kan kembali, jika user berhasil login maka user akan ditampilkan menu tabel nilai yang berisi crud dari menu tersebut kemudian akan tersimpan didatabase.Kemudian jika pengguna memilih menu siswa maka pengguna diminta untuk menginputkan nis dan password, jika gagal maka pengguna akan diminta menginputkan kembali jika berhasil maka pengguna akan ditampilkan tabel nilai namun pengguna hanya bisa melihat tanpa bisa mengedit.
 
 ## Entity Relationship Diagram
@@ -49,8 +50,8 @@ Flowchart dimulai dari user diminta untuk memilih menu login , terdapat 3 menu p
 ![image](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121924124/b2c1ee37-23cb-4478-a1e7-5660e0d080de)
 
 
-### Relatioanal ERD
-![WhatsApp Image 2023-11-04 at 03 58 48_aef4012d](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121856034/b2d17142-3fae-4de3-b4a7-82fdace745fe)
+### Relational ERD
+![image](https://github.com/PA-PBOxDBD/PA-PBO-DBD-KELOMPOK-24/assets/121924124/61fd4b79-c419-48cf-9685-c45b07cdc8fd)
 
 
 ## Hirarki kelas
